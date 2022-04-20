@@ -1,0 +1,28 @@
+@media (max-width: 1023px) {
+    #sb_instagram {
+        padding: 0 15px;
+    }
+
+    #sb_instagram.sbi_col_7 #sbi_images .sbi_item {
+        width: 25%;
+    }
+}
+
+@media (max-width: 550px) {
+    #sb_instagram.sbi_col_7 #sbi_images {
+        padding: 0 !important;
+    }
+
+    #sb_instagram.sbi_col_7 #sbi_images .sbi_item {
+        width: 50%;
+        padding: 0 7.5px 15px !important;
+    }
+
+    #sb_instagram.sbi_col_7 #sbi_images .sbi_item .sbi_photo {
+        height: 150px !important;
+    }
+
+    #sb_instagram.sbi_col_7 #sbi_images .sbi_item:nth-child(7) {
+        display: none;
+    }
+}

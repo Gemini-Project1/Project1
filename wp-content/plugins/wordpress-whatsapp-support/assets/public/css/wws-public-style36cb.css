@@ -1,0 +1,123 @@
+.wws-clearfix { clear: both; }
+.wws-shadow {
+  box-shadow: 0 0 50px rgba(0,0,0,0.2);
+}
+
+.wws-icon  {
+  font-family: "wwsFonts" !important;
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* You can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.wws-icon-close:before { content: '\e800'; } /* '' */
+.wws-icon-whatsapp:before { content: '\f232'; } /* '' */
+
+.wws-shortcode-btn {
+  padding: 4px 10px;
+  margin: 2px;
+  border-radius: 5px;
+  text-align: center;
+}
+.wws-shortcode-btn:hover {
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.16);
+}
+
+.wws-gradient {
+  z-index: -1;
+  position: fixed;
+  width: 500px;
+  height: 500px;
+  content: "";
+  pointer-events: none;
+  display: none;
+}
+
+
+@-webkit-keyframes wws-shake {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  } 25% {
+    -webkit-transform: translateX(-8px);
+            transform: translateX(-8px);
+    } 50% {
+      -webkit-transform: translateX(8px);
+              transform: translateX(8px);
+    }  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+
+@keyframes wws-shake {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  } 25% {
+    -webkit-transform: translateX(-8px);
+            transform: translateX(-8px);
+    } 50% {
+      -webkit-transform: translateX(8px);
+              transform: translateX(8px);
+    }  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+
+.wws-shake-animation {
+  animation: wws-shake .3s;
+}
+
+
+/* Plugin GDPR CSS*/
+.wws-popup .wws-gdpr {
+  padding: 8px 12px 6px 12px;
+  background: #fff;
+  font-size: 12px;
+  color: #888FBB;
+  user-select: none;
+}
+.wws-popup .wws-gdpr label {
+  color: #888FBB;
+  display: block;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wws-popup .wws-gdpr label input[type="checkbox"] { 
+  vertical-align: middle; 
+  margin-right: 4px;
+  padding: 0;
+}
+
+
+
+
+

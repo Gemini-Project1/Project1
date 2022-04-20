@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+.stm_cf7 .request_quote .wpcf7-form-control:not(.wpcf7-submit),
+.stm_cf7 .request_quote .stm_select {
+    height: 50px !important;
+    font-size: 14px;
+    text-transform: none;
+    color: #b2b2b2;
+}
+
+.stm_cf7 .request_quote .stm_select .stm-select__val {
+    left: 40px;
+}
+
+.stm_cf7 .request_quote .form-group {
+    margin-bottom: 0;
+}
+
+.stm_cf7 .request_quote .stm_wpcf7_submit {
+    line-height: 50px;
+    padding: 0 70px 0 25px !important;
+}
+
+.stm_cf7 .request_quote .stm_wpcf7_submit i {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50px;
+}
+
+.stm_cf7 .request_quote .stm_wpcf7_submit.btn.btn_solid i {
+    color: #58c747 !important;
+}
+
+.stm_cf7 .request_quote .email-input:before {
+    content: "";
+}
+
+.stm_cf7 .request_quote .wpcf7-form-control-wrap {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.stm_cf7 .request_quote .wpcf7-form-control-wrap .wpcf7-form-control {
+    border: 1px solid #e6e6e6;
+    padding-left: 40px;
+}
+
+.stm_cf7 .request_quote .wpcf7-form-control-wrap .wpcf7-form-control:focus {
+    background: #fff;
+}
+
+.stm_cf7 .request_quote_page textarea {
+    min-height: 120px !important;
+}
+
+.stm_cf7 .form-group input:focus {
+    background: #fff;
+}
+
+.stm_cf7 .form-group textarea:focus {
+    background: #fff;
+}
+
+.stm_cf7 .track_your_shipment_form .wpcf7-radio span.wpcf7-list-item {
+    display: block !important;
+    margin-bottom: 18px;
+    padding: 0;
+    margin-left: 0;
+    line-height: 14px;
+}
+
+.stm_cf7 .track_your_shipment_form .wpcf7-radio span.wpcf7-list-item label {
+    margin: 0;
+    font-weight: 400;
+}
+
+.stm_cf7 .track_your_shipment_form .wpcf7-radio span.wpcf7-list-item input[type="radio"] {
+    margin-top: 0;
+    margin-right: 8px;
+}
+
+.stm_cf7 .stm_input_wrapper_checkbox {
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.stm_cf7 .stm_input_wrapper_checkbox input {
+    margin-top: 0;
+}
+
+.stm_cf7 .contact_form {
+    padding: 40px 40px 10px;
+    background: #f7f7f7;
+}
+
+.stm_cf7 .contact_form textarea {
+    height: 120px;
+    min-height: 50px;
+}
+
+.stm_cf7 .contact_form .wpcf7-form-control-wrap {
+    margin-bottom: 0;
+}
+
+.stm_cf7 .contact_form .form-group {
+    margin-bottom: 20px;
+}
+
+.stm_cf7 .contact_form .ajax-loader {
+    display: none;
+}
+
+.stm_cf7 .contact_form [type=submit]:after {
+    color: #fff !important;
+}
+
+.form-group.freight:before {
+    content: "";
+}
+
+.form-group.departure:before {
+    content: "";
+}
+
+.form-group.delivery:before {
+    content: "";
+}
+
+.form-group.gross:before {
+    content: "";
+}
+
+.form-group.chat:before {
+    font-family: FontAwesome;
+    content: "\f27b" !important;
+}
+
+.form-group.people:before {
+    font-family: FontAwesome;
+    content: "\f2be" !important;
+}
+
+.form-group.mail:before {
+    font-family: FontAwesome;
+    content: "\f2b7" !important;
+}
+
+.form-group.phone:before {
+    font-family: FontAwesome;
+    content: "\f095" !important;
+}

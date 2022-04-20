@@ -1,0 +1,33 @@
+.stm_accordions_style_3 .vc_tta-container .vc_tta-accordion .vc_tta-panels-container .vc_tta-panels .vc_tta-panel-heading {
+    font-size: 18px;
+}
+
+.stm_accordions_style_3 .vc_tta-container .vc_tta-accordion .vc_tta-panels-container .vc_tta-panels .vc_tta-panel-heading .vc_tta-panel-title > a {
+    padding: 20px 60px 20px 20px;
+    margin-bottom: 2px;
+    font-size: 18px;
+    text-transform: none;
+    font-weight: 400;
+    background-color: #f6f7f8;
+    border-color: #f6f7f8;
+}
+
+.stm_accordions_style_3 .vc_tta-container .vc_tta-accordion .vc_tta-panels-container .vc_tta-panels .vc_tta-panel-heading .vc_tta-panel-title > a .vc_tta-title-text {
+    opacity: 1;
+    color: #293742;
+    font-weight: bold;
+}
+
+.stm_accordions_style_3 .vc_tta-container .vc_tta-accordion .vc_tta-panels-container .vc_tta-panels .vc_tta-panel-heading .vc_tta-controls-icon {
+    opacity: 1;
+}
+
+.stm_accordions_style_3 .vc_tta-container .vc_tta-accordion .vc_tta-panels-container .vc_tta-panels .vc_tta-panel.vc_active i.vc_tta-controls-icon {
+    margin-top: 2px;
+    transform: rotate(180deg) translateY(50%);
+    transform-origin: center center;
+}
+
+.stm_accordions_style_3 .vc_tta-container .vc_tta-accordion .vc_tta-panels-container .vc_tta-panels .vc_tta-panel:last-child .vc_tta-panel-heading .vc_tta-panel-title > a {
+    border-bottom-color: #f6f7f8;
+}

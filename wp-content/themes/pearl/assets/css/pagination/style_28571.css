@@ -1,0 +1,150 @@
+/*COLORS*/
+/*FONTS*/
+ul.page-numbers {
+    padding-left: 0;
+}
+
+ul.page-numbers li {
+    list-style: none;
+    float: left;
+}
+
+ul.page-numbers .page-numbers {
+    text-decoration: none !important;
+}
+
+.slick-dots li {
+    position: relative;
+    padding: 11px 10px;
+    cursor: pointer;
+}
+
+.slick-dots li.slick-active:before {
+    transform: scale(1.4);
+}
+
+.slick-dots li:before {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: #b8b8b8;
+    border-radius: 50%;
+}
+
+ul.page-numbers {
+    float: left;
+}
+
+ul.page-numbers li {
+    margin: 0 4px;
+}
+
+ul.page-numbers li:first-child {
+    margin-left: 0;
+}
+
+ul.page-numbers li .page-numbers {
+    min-width: 50px;
+    min-height: 50px;
+    line-height: 1;
+    display: block;
+    height: auto;
+    border: 2px solid transparent;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+ul.page-numbers li .page-numbers:not(.current):hover {
+    color: #fff !important;
+}
+
+ul.page-numbers li .page-numbers.current {
+    border-color: #d9d9d9;
+    background-color: transparent;
+}
+
+ul.page-numbers li .page-numbers.next {
+    padding: 0 20px;
+}
+
+ul.page-numbers li .page-numbers.next i {
+    margin-left: 12px;
+}
+
+ul.page-numbers li .page-numbers.prev i {
+    position: relative;
+    top: 1px;
+    margin-right: 12px;
+}
+
+.owl-dots {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.owl-dots .owl-dot {
+    cursor: pointer;
+    transition: .3s ease;
+    display: block;
+    margin-bottom: 15px;
+    padding: 2px;
+    position: relative;
+    margin-right: 15px;
+    border: 1px solid transparent;
+    border-radius: 100%;
+}
+
+.owl-dots .owl-dot span {
+    background: #7f8f9f;
+    display: block;
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+}
+
+.owl-dots .owl-dot.active span {
+    opacity: 0;
+}
+
+.stm_pagination_style_2 .owl-dots .owl-dot.active {
+    background-color: transparent !important;
+}
+
+.tp-bullets .tp-bullet {
+    width: 4px !important;
+    height: 4px !important;
+    padding: 3px;
+    transition: all 0.2s linear !important;
+    border: none;
+    background-color: #8F929D !important;
+    box-shadow: none;
+    overflow: visible !important;
+}
+
+.tp-bullets .tp-bullet:after {
+    content: '';
+    position: absolute;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100%;
+    border: 1px solid #58c747;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+    opacity: 0;
+    transition: .3s ease !important;
+    background-color: transparent;
+}
+
+.tp-bullets .tp-bullet.selected {
+    background-color: transparent;
+}
+
+.tp-bullets .tp-bullet.selected:after {
+    opacity: 1;
+}

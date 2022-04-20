@@ -1,0 +1,36 @@
+/*COLORS*/
+/*FONTS*/
+.stm_history_style_1 .stm_history__item {
+    margin-bottom: 45px;
+}
+
+.stm_history_style_1 .stm_history__year {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.6;
+    border-right-width: 5px;
+    border-right-style: solid;
+    font-size: 30px;
+    font-weight: 300;
+    padding: 0 31px 0 0;
+    margin: 0 22px 0 0;
+}
+
+@media (max-width: 550px) {
+    .stm_history_style_1 .stm_history__year {
+        display: block;
+        border-right: 0;
+    }
+}
+
+.stm_history_style_1 .stm_history__title {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: -0.2px;
+}
+
+.stm_history_style_1 .stm_history__body {
+    margin-top: 15px;
+}
